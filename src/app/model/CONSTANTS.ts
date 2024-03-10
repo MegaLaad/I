@@ -190,7 +190,7 @@ export const METAL_BUILDING_PRICE = 1000;
 export const ALLOY_BUILDING_PRICE = 1e4;
 
 //  Megastructures
-export const MEGA_PRICE_MULTI = 1e3;
+export const MEGA_PRICE_MULTI = 1e2;
 export const MEGA_WORKER_MULTI = 0.4;
 export const MEGA_EFF_MULTI = 0.1;
 export const MEGA_NAVAL_MULTI = 0.2;
@@ -199,18 +199,18 @@ export const MEGA_COMPUTING_MULTI = 0.2;
 
 //  Computing
 export const BASE_COMPUTING = 1e4;
-export const COMPUTING_TECH_BONUS = 0.01;
+export const COMPUTING_TECH_BONUS = 0.1;
 
 //  Prestige
-export const PRESTIGE_MULTI_PER_LEVEL = 0.1;
-export const PRESTIGE_MULTI_EXP = 1.2;
+export const PRESTIGE_MULTI_PER_LEVEL = 1;
+export const PRESTIGE_MULTI_EXP = 12;
 export const PRESTIGE_PRICE = 10;
 export const PRESTIGE_PRICE_SUPER = 1e4;
-export const DRONE_PRESTIGE_START_OFFER = 0.15;
-export const DRONE_PRESTIGE_PRODUCTION = 0.05;
-export const DRONE_PRESTIGE_EFFICIENCY = 0.02;
+export const DRONE_PRESTIGE_START_OFFER = 0.55;
+export const DRONE_PRESTIGE_PRODUCTION = 0.5;
+export const DRONE_PRESTIGE_EFFICIENCY = 0.2;
 export const DRONE_PRESTIGE_QUANTITY = 0.1;
-export const TECH_PRESTIGE_MULTI = 0.2;
+export const TECH_PRESTIGE_MULTI = 0.9;
 export const DISTRICT_PRESTIGE_MULTI = 0.5;
 export const MATERIAL_PRESTIGE_MULTI = 5;
 export const COMPONENT_PRESTIGE_MULTI = 0.3;
@@ -221,13 +221,13 @@ export const BETTER_SPACE_STATION_PRESTIGE = 0.5;
 export const AUTOMATION_UNLOCKED_LEVEL = 2;
 export const MOD_LEVEL_PRESTIGE = 0.01;
 export const SHIP_JOB_PRESTIGE = 0.01;
-export const CIV_JOB_BUILD_SPEED = 0.01;
-export const MEGA_JOB_BUILD_SPEED = 0.02;
+export const CIV_JOB_BUILD_SPEED = 0.1;
+export const MEGA_JOB_BUILD_SPEED = 0.2;
 export const MORE_PRODUCTION = 0.1;
 export const SPEED_PRESTIGE = 0.01;
 export const ACCELERATION_PRESTIGE = 0.01;
-export const COMPUTING_BONUS = 1;
-export const COMPUTING_SEC_BONUS = 0.02;
+export const COMPUTING_BONUS = 10;
+export const COMPUTING_SEC_BONUS = 0.2;
 export const MAX_MOD_PRESTIGE = 0.01;
 export const MAX_DRONES_PRESTIGE = 0.01;
 export const FAST_SEARCH = 0.01;
@@ -237,7 +237,7 @@ export const MINING_PRESTIGE = 0.01;
 export const FLEET_CAPACITY_PRESTIGE = 1;
 
 //  Prestige Card
-export const LEVEL_PER_CARD = 12;
+export const LEVEL_PER_CARD = 5;
 export const PRODUCTION_CARD = 1;
 export const PRODUCTION_PEACE_CARD = 1;
 export const EFFICIENCY_CARD = 0.3;
@@ -255,13 +255,13 @@ export const INSPIRATION_CARD = 0.7;
 export const EXP_GAIN_CARD = 0.5;
 export const DM_GAIN_CARD = 1;
 export const SPELL_DURATION_CARD = 1;
-export const COMPUTING_REGENERATION_CARD = 1;
-export const COMPUTING_MAX_CARD = 1;
+export const COMPUTING_REGENERATION_CARD = 5;
+export const COMPUTING_MAX_CARD = 5;
 export const MORE_HAB_FROM_STATIONS = 10;
 export const EXTRA_DISTRICTS_FROM_STATIONS = 0.1;
 export const KILL_STREAK_SPEED_CARD = 0.02;
 export const KILL_STREAK_GAIN_CARD = 0.02;
-export const MEGA_BUILD_SPEED_CARD = 100;
+export const MEGA_BUILD_SPEED_CARD = 1000;
 export const CHALLENGE_XP_MULTI = 0.02;
 export const EXTREME_MOD_TOTAL_MULTI = 0.1;
 export const EXTREME_MOD_TOTAL_EXP = 2;
